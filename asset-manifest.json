@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/London-based-website/static/css/main.17dca49e.css",
+    "main.js": "/London-based-website/static/js/main.15dbe09b.js",
+    "static/media/img-1.jpg": "/London-based-website/static/media/img-1.da545efb6ff25387978a.jpg",
+    "static/media/img-8.jpg": "/London-based-website/static/media/img-8.db2558f2c1173293695b.jpg",
+    "static/media/img-2.jpg": "/London-based-website/static/media/img-2.734f3c7eed7131842dd4.jpg",
+    "index.html": "/London-based-website/index.html",
+    "main.17dca49e.css.map": "/London-based-website/static/css/main.17dca49e.css.map",
+    "main.15dbe09b.js.map": "/London-based-website/static/js/main.15dbe09b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17dca49e.css",
+    "static/js/main.15dbe09b.js"
+  ]
+}
