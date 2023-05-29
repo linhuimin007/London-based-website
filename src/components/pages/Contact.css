@@ -1,0 +1,163 @@
+.contact-container {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/800px-Flag_of_the_United_Kingdom_%281-2%29.svg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 800px;
+  
+    padding: 25px;
+    flex-wrap: wrap;
+  
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.31);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.2px);
+    -webkit-backdrop-filter: blur(6.2px);
+    border: 1px solid rgba(255, 255, 255, 0.94);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .form-container {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .form-container {
+      width: 95%;
+      margin: 20px auto;
+      padding: 15px;
+    }
+  }
+  
+  .contact-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .contact-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .contact-info {
+      grid-template-columns: 1fr;
+      grid-auto-rows: minmax(100px, auto);
+    }
+  }
+  
+  .contact-card {
+    position: relative;
+    padding: 20px;
+    background-color: #3355779e;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  
+    text-align: center;
+  }
+  
+  .contact-name {
+    font-size: 22px;
+    font-weight: bolder;
+  
+    color: #333333;
+  }
+  
+  .LinkedIn-link {
+    margin-bottom: 10px;
+    color: #666666;
+    text-align: center;
+  }
+  
+  .feedback-form {
+    margin-top: 40px;
+    width: 50%;
+  }
+  
+  .feedback-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .rating-stars {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .rating-container {
+    text-align: center;
+  }
+  .star {
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .star.filled {
+    color: #001b69;
+  }
+  
+  button {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(72, 76, 122);
+    font-size: 14px;
+    height: 38px;
+    padding: 8px 24px;
+    border-radius: 50px;
+    background-image: linear-gradient(180deg, #fff, #f5f5fa);
+    box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%),
+      0 1px 3px 0 rgb(93 100 148 / 20%);
+    transition: all 0.2s ease-out;
+    :hover {
+      box-shadow: 0 8px 22px 0 rgb(37 44 97 / 15%),
+        0 4px 6px 0 rgb(93 100 148 / 20%);
+    }
+  }
